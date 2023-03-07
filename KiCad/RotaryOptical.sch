@@ -1,0 +1,2050 @@
+EESchema Schematic File Version 4
+LIBS:RotaryOptical-cache
+EELAYER 29 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "Rotary / Optical USB Device"
+Date "2023-02-04"
+Rev "1"
+Comp "Gadget Reboot"
+Comment1 "https://www.youtube.com/gadgetreboot"
+Comment2 "https://github.com/GadgetReboot/Rotary_Optical_USB"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 63CE10C6
+P 9125 3775
+F 0 "U1" H 9125 4990 50  0000 C CNN
+F 1 "Pico" H 9125 4899 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 9125 3775 50  0001 C CNN
+F 3 "" H 9125 3775 50  0001 C CNN
+	1    9125 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 2825 10400 2825
+Wire Wire Line
+	9825 3025 10400 3025
+Wire Wire Line
+	9825 3125 10400 3125
+Wire Wire Line
+	9825 3225 10400 3225
+Wire Wire Line
+	9825 3325 10400 3325
+Wire Wire Line
+	9825 3425 10400 3425
+Wire Wire Line
+	9825 3525 10400 3525
+Wire Wire Line
+	9825 3625 10400 3625
+Wire Wire Line
+	9825 3725 10400 3725
+Wire Wire Line
+	9825 3825 10400 3825
+Wire Wire Line
+	9825 3925 10400 3925
+Wire Wire Line
+	9825 4025 10400 4025
+Wire Wire Line
+	9825 4125 10400 4125
+Wire Wire Line
+	9825 4525 10400 4525
+Text Label 9925 3625 0    50   ~ 0
+GP27_ADC1
+Text Label 9925 3725 0    50   ~ 0
+GP26_ADC0
+Text Label 9925 3425 0    50   ~ 0
+GP28_ADC2
+Text Label 9925 3525 0    50   ~ 0
+AGND
+Text Label 9925 3325 0    50   ~ 0
+ADC_VREF
+Text Label 9925 3225 0    50   ~ 0
+3V3
+Text Label 9925 3125 0    50   ~ 0
+3V3_EN
+Text Label 9925 3025 0    50   ~ 0
+GND
+Text Label 9925 2925 0    50   ~ 0
+VSYS
+Text Label 9925 2825 0    50   ~ 0
+VBUS
+Text Label 9925 3825 0    50   ~ 0
+RUN
+Text Label 9925 3925 0    50   ~ 0
+GP22
+Text Label 9925 4025 0    50   ~ 0
+GND
+Text Label 9925 4125 0    50   ~ 0
+GP21
+Text Label 9925 4225 0    50   ~ 0
+GP20
+Text Label 9925 4325 0    50   ~ 0
+GP19
+Text Label 9925 4425 0    50   ~ 0
+GP18
+Text Label 9925 4525 0    50   ~ 0
+GND
+Text Label 9925 4625 0    50   ~ 0
+GP17
+Text Label 9925 4725 0    50   ~ 0
+GP16
+Wire Wire Line
+	8425 3025 7850 3025
+Wire Wire Line
+	8425 3525 7850 3525
+Wire Wire Line
+	8425 4525 7850 4525
+Wire Wire Line
+	8425 4725 7850 4725
+Text Label 8325 3625 2    50   ~ 0
+GP6
+Text Label 8325 3725 2    50   ~ 0
+GP7
+Text Label 8325 3425 2    50   ~ 0
+GP5
+Text Label 8325 3525 2    50   ~ 0
+GND
+Text Label 8325 3325 2    50   ~ 0
+GP4
+Text Label 8325 3225 2    50   ~ 0
+GP3
+Text Label 8325 3125 2    50   ~ 0
+GP2
+Text Label 8325 3025 2    50   ~ 0
+GND
+Text Label 8325 2925 2    50   ~ 0
+GP1
+Text Label 8325 2825 2    50   ~ 0
+GP0
+Text Label 8325 3825 2    50   ~ 0
+GP8
+Text Label 8325 3925 2    50   ~ 0
+GP9
+Text Label 8325 4025 2    50   ~ 0
+GND
+Text Label 8325 4125 2    50   ~ 0
+GP10
+Text Label 8325 4225 2    50   ~ 0
+GP11
+Text Label 8325 4325 2    50   ~ 0
+GP12
+Text Label 8325 4425 2    50   ~ 0
+GP13
+Text Label 8325 4525 2    50   ~ 0
+GND
+Text Label 8325 4625 2    50   ~ 0
+GP14
+Text Label 8325 4725 2    50   ~ 0
+GP15
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 63C24685
+P 11500 9750
+F 0 "H2" H 11600 9796 50  0001 L CNN
+F 1 "MountingHole" H 11600 9750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11500 9750 50  0001 C CNN
+F 3 "~" H 11500 9750 50  0001 C CNN
+	1    11500 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 63C24B4A
+P 11500 9925
+F 0 "H4" H 11600 9971 50  0001 L CNN
+F 1 "MountingHole" H 11600 9925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11500 9925 50  0001 C CNN
+F 3 "~" H 11500 9925 50  0001 C CNN
+	1    11500 9925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 63C24F84
+P 10775 9750
+F 0 "H1" H 10875 9796 50  0001 L CNN
+F 1 "MountingHole" H 10875 9750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10775 9750 50  0001 C CNN
+F 3 "~" H 10775 9750 50  0001 C CNN
+	1    10775 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 63C24F8E
+P 10775 9925
+F 0 "H3" H 10875 9971 50  0001 L CNN
+F 1 "MountingHole" H 10875 9925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10775 9925 50  0001 C CNN
+F 3 "~" H 10775 9925 50  0001 C CNN
+	1    10775 9925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 63C2BF5C
+P 10650 2925
+F 0 "D1" H 10650 2825 50  0000 C CNN
+F 1 "LED_Small_ALT" H 10650 3069 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Clear" V 10650 2925 50  0001 C CNN
+F 3 "~" V 10650 2925 50  0001 C CNN
+	1    10650 2925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 63C2D0DD
+P 10900 3100
+F 0 "R1" H 10968 3146 50  0000 L CNN
+F 1 "470r" H 10968 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10900 3100 50  0001 C CNN
+F 3 "~" H 10900 3100 50  0001 C CNN
+	1    10900 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 63C2E022
+P 10900 3250
+F 0 "#PWR03" H 10900 3000 50  0001 C CNN
+F 1 "GND" H 10905 3077 50  0000 C CNN
+F 2 "" H 10900 3250 50  0001 C CNN
+F 3 "" H 10900 3250 50  0001 C CNN
+	1    10900 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2925 10900 2925
+Wire Wire Line
+	10900 2925 10900 3000
+Wire Wire Line
+	10900 3200 10900 3250
+Text Notes 10500 2825 0    75   ~ 0
+Power
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC245AN U3
+U 1 1 63DD7378
+P 11175 4125
+F 0 "U3" H 11050 4400 60  0000 C CNN
+F 1 "SN74LVC245AN" H 10775 2950 60  0000 C CNN
+F 2 "digikey-footprints:DIP-20_W7.62mm" H 11375 4325 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 11375 4425 60  0001 L CNN
+F 4 "296-8503-5-ND" H 11375 4525 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC245AN" H 11375 4625 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 11375 4725 60  0001 L CNN "Category"
+F 7 "Logic - Buffers, Drivers, Receivers, Transceivers" H 11375 4825 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 11375 4925 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC245AN/296-8503-5-ND/377483" H 11375 5025 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC TXRX NON-INVERT 3.6V 20DIP" H 11375 5125 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 11375 5225 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 11375 5325 60  0001 L CNN "Status"
+	1    11175 4125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network04_US RN2
+U 1 1 63DDBD21
+P 11900 3850
+F 0 "RN2" H 11825 4100 50  0000 L CNN
+F 1 "10K" H 11825 4025 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 12175 3850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 11900 3850 50  0001 C CNN
+	1    11900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J2
+U 1 1 63DE6062
+P 3325 2175
+F 0 "J2" H 3275 1750 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3405 2076 50  0001 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal" H 3325 2175 50  0001 C CNN
+F 3 "~" H 3325 2175 50  0001 C CNN
+	1    3325 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x13 J4
+U 1 1 63DFEA08
+P 14725 3525
+F 0 "J4" H 14675 2825 50  0000 L CNN
+F 1 "Conn_01x13" H 14805 3476 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 14725 3525 50  0001 C CNN
+F 3 "~" H 14725 3525 50  0001 C CNN
+	1    14725 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network04_US RN3
+U 1 1 63E05CE7
+P 12375 3850
+F 0 "RN3" H 12300 4100 50  0000 L CNN
+F 1 "10K" H 12300 4025 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 12650 3850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12375 3850 50  0001 C CNN
+	1    12375 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D6
+U 1 1 63E07FCD
+P 13700 4450
+F 0 "D6" V 13650 4525 50  0000 L CNN
+F 1 "SA5.0A" V 13745 4529 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 13700 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13650 4450 50  0001 C CNN
+	1    13700 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D7
+U 1 1 63E07FD7
+P 13925 4450
+F 0 "D7" V 13875 4525 50  0000 L CNN
+F 1 "SA5.0A" V 13970 4529 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 13925 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13875 4450 50  0001 C CNN
+	1    13925 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D8
+U 1 1 63E07FE1
+P 14150 4450
+F 0 "D8" V 14100 4525 50  0000 L CNN
+F 1 "SA5.0A" V 14195 4529 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 14150 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14100 4450 50  0001 C CNN
+	1    14150 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D9
+U 1 1 63E07FEB
+P 14375 4450
+F 0 "D9" V 14329 4529 50  0000 L CNN
+F 1 "SA5.0A" V 14420 4529 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 14375 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14325 4450 50  0001 C CNN
+	1    14375 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC245AN U2
+U 1 1 63E3E2EC
+P 6650 2825
+F 0 "U2" H 6425 3100 60  0000 C CNN
+F 1 "SN74LVC245AN" H 6225 1650 60  0000 C CNN
+F 2 "digikey-footprints:DIP-20_W7.62mm" H 6850 3025 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 6850 3125 60  0001 L CNN
+F 4 "296-8503-5-ND" H 6850 3225 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC245AN" H 6850 3325 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6850 3425 60  0001 L CNN "Category"
+F 7 "Logic - Buffers, Drivers, Receivers, Transceivers" H 6850 3525 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 6850 3625 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC245AN/296-8503-5-ND/377483" H 6850 3725 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC TXRX NON-INVERT 3.6V 20DIP" H 6850 3825 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6850 3925 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6850 4025 60  0001 L CNN "Status"
+	1    6650 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC245AN U4
+U 1 1 63E3F339
+P 6650 6650
+F 0 "U4" H 6425 6900 60  0000 C CNN
+F 1 "SN74LVC245AN" H 6225 5475 60  0000 C CNN
+F 2 "digikey-footprints:DIP-20_W7.62mm" H 6850 6850 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 6850 6950 60  0001 L CNN
+F 4 "296-8503-5-ND" H 6850 7050 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC245AN" H 6850 7150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6850 7250 60  0001 L CNN "Category"
+F 7 "Logic - Buffers, Drivers, Receivers, Transceivers" H 6850 7350 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc245a" H 6850 7450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC245AN/296-8503-5-ND/377483" H 6850 7550 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC TXRX NON-INVERT 3.6V 20DIP" H 6850 7650 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6850 7750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6850 7850 60  0001 L CNN "Status"
+	1    6650 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4225 10975 4225
+Wire Wire Line
+	9825 4325 10975 4325
+Wire Wire Line
+	9825 4425 10975 4425
+Wire Wire Line
+	10475 4625 10475 4525
+Wire Wire Line
+	10475 4525 10975 4525
+Wire Wire Line
+	9825 4625 10475 4625
+Wire Wire Line
+	10575 4725 10575 4625
+Wire Wire Line
+	10575 4625 10975 4625
+Wire Wire Line
+	9825 4725 10575 4725
+Wire Wire Line
+	10975 4725 10675 4725
+Wire Wire Line
+	10675 4725 10675 5025
+Wire Wire Line
+	10675 5025 7725 5025
+Wire Wire Line
+	7725 5025 7725 4625
+Wire Wire Line
+	7725 4625 8425 4625
+Wire Wire Line
+	7625 4425 7625 5125
+Wire Wire Line
+	7625 5125 10775 5125
+Wire Wire Line
+	10775 5125 10775 4825
+Wire Wire Line
+	10775 4825 10975 4825
+Wire Wire Line
+	7625 4425 8425 4425
+Wire Wire Line
+	10975 4925 10875 4925
+Wire Wire Line
+	10875 4925 10875 5225
+Wire Wire Line
+	10875 5225 7525 5225
+Wire Wire Line
+	7525 5225 7525 4325
+Wire Wire Line
+	7525 4325 8425 4325
+Wire Wire Line
+	14525 4025 14375 4025
+Wire Wire Line
+	14375 4025 14375 3625
+Wire Wire Line
+	14375 3625 14525 3625
+Wire Wire Line
+	14525 3225 14375 3225
+Wire Wire Line
+	14375 3225 14375 3625
+Connection ~ 14375 3625
+Wire Wire Line
+	14525 3125 14150 3125
+Wire Wire Line
+	14150 3125 14150 3525
+Wire Wire Line
+	14150 3925 14525 3925
+Wire Wire Line
+	14525 3525 14150 3525
+Connection ~ 14150 3525
+Wire Wire Line
+	14150 3525 14150 3925
+Wire Wire Line
+	14525 3025 13925 3025
+Wire Wire Line
+	13925 3025 13925 3425
+Wire Wire Line
+	13925 3825 14525 3825
+Wire Wire Line
+	14525 3425 13925 3425
+Connection ~ 13925 3425
+Wire Wire Line
+	13925 3425 13925 3825
+Wire Wire Line
+	14525 2925 13700 2925
+Wire Wire Line
+	13700 2925 13700 3325
+Wire Wire Line
+	13700 3725 14525 3725
+Wire Wire Line
+	14525 3325 13700 3325
+Connection ~ 13700 3325
+Wire Wire Line
+	13700 3325 13700 3725
+$Comp
+L power:GND #PWR0101
+U 1 1 63E8F4ED
+P 14500 4200
+F 0 "#PWR0101" H 14500 3950 50  0001 C CNN
+F 1 "GND" H 14625 4100 50  0000 C CNN
+F 2 "" H 14500 4200 50  0001 C CNN
+F 3 "" H 14500 4200 50  0001 C CNN
+	1    14500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14525 4125 14500 4125
+Wire Wire Line
+	14500 4125 14500 4200
+$Comp
+L power:GND #PWR0102
+U 1 1 63E94353
+P 14375 4650
+F 0 "#PWR0102" H 14375 4400 50  0001 C CNN
+F 1 "GND" H 14380 4477 50  0000 C CNN
+F 2 "" H 14375 4650 50  0001 C CNN
+F 3 "" H 14375 4650 50  0001 C CNN
+	1    14375 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 63E94973
+P 14150 4650
+F 0 "#PWR0103" H 14150 4400 50  0001 C CNN
+F 1 "GND" H 14155 4477 50  0000 C CNN
+F 2 "" H 14150 4650 50  0001 C CNN
+F 3 "" H 14150 4650 50  0001 C CNN
+	1    14150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 63E94DEC
+P 13925 4650
+F 0 "#PWR0104" H 13925 4400 50  0001 C CNN
+F 1 "GND" H 13930 4477 50  0000 C CNN
+F 2 "" H 13925 4650 50  0001 C CNN
+F 3 "" H 13925 4650 50  0001 C CNN
+	1    13925 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 63E952CB
+P 13700 4650
+F 0 "#PWR0105" H 13700 4400 50  0001 C CNN
+F 1 "GND" H 13705 4477 50  0000 C CNN
+F 2 "" H 13700 4650 50  0001 C CNN
+F 3 "" H 13700 4650 50  0001 C CNN
+	1    13700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14375 4650 14375 4600
+Wire Wire Line
+	14150 4650 14150 4600
+Wire Wire Line
+	13925 4650 13925 4600
+Wire Wire Line
+	13700 4650 13700 4600
+Wire Wire Line
+	14375 4300 14375 4025
+Connection ~ 14375 4025
+Wire Wire Line
+	14150 3925 14150 4300
+Connection ~ 14150 3925
+Wire Wire Line
+	13925 3825 13925 4300
+Connection ~ 13925 3825
+Wire Wire Line
+	13700 3725 13700 4300
+Connection ~ 13700 3725
+$Comp
+L Connector_Generic:Conn_01x13 J6
+U 1 1 63EBFA90
+P 14725 5575
+F 0 "J6" H 14675 4875 50  0000 L CNN
+F 1 "Conn_01x13" H 14805 5526 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 14725 5575 50  0001 C CNN
+F 3 "~" H 14725 5575 50  0001 C CNN
+	1    14725 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D14
+U 1 1 63EBFA9A
+P 13700 6500
+F 0 "D14" V 13625 6550 50  0000 L CNN
+F 1 "SA5.0A" V 13745 6579 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 13700 6300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13650 6500 50  0001 C CNN
+	1    13700 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D15
+U 1 1 63EBFAA4
+P 13925 6500
+F 0 "D15" V 13850 6575 50  0000 L CNN
+F 1 "SA5.0A" V 13970 6579 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 13925 6300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 13875 6500 50  0001 C CNN
+	1    13925 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D16
+U 1 1 63EBFAAE
+P 14150 6500
+F 0 "D16" V 14075 6575 50  0000 L CNN
+F 1 "SA5.0A" V 14195 6579 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 14150 6300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14100 6500 50  0001 C CNN
+	1    14150 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D17
+U 1 1 63EBFAB8
+P 14375 6500
+F 0 "D17" V 14300 6550 50  0000 L CNN
+F 1 "SA5.0A" V 14420 6579 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 14375 6300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14325 6500 50  0001 C CNN
+	1    14375 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14525 6075 14375 6075
+Wire Wire Line
+	14375 6075 14375 5675
+Wire Wire Line
+	14375 5675 14525 5675
+Wire Wire Line
+	14525 5275 14375 5275
+Wire Wire Line
+	14375 5275 14375 5675
+Connection ~ 14375 5675
+Wire Wire Line
+	14525 5175 14150 5175
+Wire Wire Line
+	14150 5175 14150 5575
+Wire Wire Line
+	14150 5975 14525 5975
+Wire Wire Line
+	14525 5575 14150 5575
+Connection ~ 14150 5575
+Wire Wire Line
+	14150 5575 14150 5975
+Wire Wire Line
+	14525 5075 13925 5075
+Wire Wire Line
+	13925 5075 13925 5475
+Wire Wire Line
+	13925 5875 14525 5875
+Wire Wire Line
+	14525 5475 13925 5475
+Connection ~ 13925 5475
+Wire Wire Line
+	13925 5475 13925 5875
+Wire Wire Line
+	14525 4975 13700 4975
+Wire Wire Line
+	13700 4975 13700 5375
+Wire Wire Line
+	13700 5775 14525 5775
+Wire Wire Line
+	14525 5375 13700 5375
+Connection ~ 13700 5375
+Wire Wire Line
+	13700 5375 13700 5775
+$Comp
+L power:GND #PWR0106
+U 1 1 63EBFADA
+P 14500 6250
+F 0 "#PWR0106" H 14500 6000 50  0001 C CNN
+F 1 "GND" H 14625 6150 50  0000 C CNN
+F 2 "" H 14500 6250 50  0001 C CNN
+F 3 "" H 14500 6250 50  0001 C CNN
+	1    14500 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14525 6175 14500 6175
+Wire Wire Line
+	14500 6175 14500 6250
+$Comp
+L power:GND #PWR0107
+U 1 1 63EBFAE6
+P 14375 6700
+F 0 "#PWR0107" H 14375 6450 50  0001 C CNN
+F 1 "GND" H 14380 6527 50  0000 C CNN
+F 2 "" H 14375 6700 50  0001 C CNN
+F 3 "" H 14375 6700 50  0001 C CNN
+	1    14375 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 63EBFAF0
+P 14150 6700
+F 0 "#PWR0108" H 14150 6450 50  0001 C CNN
+F 1 "GND" H 14155 6527 50  0000 C CNN
+F 2 "" H 14150 6700 50  0001 C CNN
+F 3 "" H 14150 6700 50  0001 C CNN
+	1    14150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 63EBFAFA
+P 13925 6700
+F 0 "#PWR0109" H 13925 6450 50  0001 C CNN
+F 1 "GND" H 13930 6527 50  0000 C CNN
+F 2 "" H 13925 6700 50  0001 C CNN
+F 3 "" H 13925 6700 50  0001 C CNN
+	1    13925 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 63EBFB04
+P 13700 6700
+F 0 "#PWR0110" H 13700 6450 50  0001 C CNN
+F 1 "GND" H 13705 6527 50  0000 C CNN
+F 2 "" H 13700 6700 50  0001 C CNN
+F 3 "" H 13700 6700 50  0001 C CNN
+	1    13700 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14375 6700 14375 6650
+Wire Wire Line
+	14150 6700 14150 6650
+Wire Wire Line
+	13925 6700 13925 6650
+Wire Wire Line
+	13700 6700 13700 6650
+Wire Wire Line
+	14375 6350 14375 6075
+Connection ~ 14375 6075
+Wire Wire Line
+	14150 5975 14150 6350
+Connection ~ 14150 5975
+Wire Wire Line
+	13925 5875 13925 6350
+Connection ~ 13925 5875
+Wire Wire Line
+	13700 5775 13700 6350
+Connection ~ 13700 5775
+Wire Wire Line
+	11700 3650 11700 3425
+Text Label 11700 3600 1    50   ~ 0
+VBUS
+Wire Wire Line
+	12175 3650 12175 3425
+Text Label 12175 3600 1    50   ~ 0
+VBUS
+Wire Wire Line
+	11575 4125 11700 4125
+Wire Wire Line
+	12675 4125 12675 3725
+Wire Wire Line
+	12675 3725 13700 3725
+Wire Wire Line
+	11575 4225 11800 4225
+Wire Wire Line
+	12775 4225 12775 3825
+Wire Wire Line
+	12775 3825 13925 3825
+Wire Wire Line
+	11575 4325 11900 4325
+Wire Wire Line
+	12875 4325 12875 3925
+Wire Wire Line
+	12875 3925 14150 3925
+Wire Wire Line
+	11575 4425 12000 4425
+Wire Wire Line
+	12975 4425 12975 4025
+Wire Wire Line
+	12975 4025 14375 4025
+Wire Wire Line
+	11575 4525 12175 4525
+Wire Wire Line
+	12975 4525 12975 5375
+Wire Wire Line
+	12975 5375 13700 5375
+Wire Wire Line
+	12875 4625 12875 5475
+Wire Wire Line
+	12875 5475 13925 5475
+Wire Wire Line
+	12775 4725 12775 5575
+Wire Wire Line
+	12775 5575 14150 5575
+Wire Wire Line
+	12675 4825 12675 5675
+Wire Wire Line
+	12675 5675 14375 5675
+Wire Wire Line
+	11700 4050 11700 4125
+Connection ~ 11700 4125
+Wire Wire Line
+	11700 4125 12675 4125
+Wire Wire Line
+	11800 4050 11800 4225
+Connection ~ 11800 4225
+Wire Wire Line
+	11800 4225 12775 4225
+Wire Wire Line
+	11900 4050 11900 4325
+Connection ~ 11900 4325
+Wire Wire Line
+	11900 4325 12875 4325
+Wire Wire Line
+	12000 4050 12000 4425
+Connection ~ 12000 4425
+Wire Wire Line
+	12000 4425 12975 4425
+Wire Wire Line
+	12175 4050 12175 4525
+Connection ~ 12175 4525
+Wire Wire Line
+	12175 4525 12975 4525
+Wire Wire Line
+	12275 4050 12275 4625
+Wire Wire Line
+	11575 4625 12275 4625
+Connection ~ 12275 4625
+Wire Wire Line
+	12275 4625 12875 4625
+Wire Wire Line
+	12375 4050 12375 4725
+Wire Wire Line
+	11575 4725 12375 4725
+Connection ~ 12375 4725
+Wire Wire Line
+	12375 4725 12775 4725
+Wire Wire Line
+	12475 4050 12475 4825
+Wire Wire Line
+	11575 4825 12475 4825
+Connection ~ 12475 4825
+Wire Wire Line
+	12475 4825 12675 4825
+Wire Wire Line
+	6850 2925 6900 2925
+Wire Wire Line
+	6900 2925 6900 2825
+Wire Wire Line
+	6900 2825 8425 2825
+Wire Wire Line
+	6850 3025 6975 3025
+Wire Wire Line
+	6975 3025 6975 2925
+Wire Wire Line
+	6975 2925 8425 2925
+Wire Wire Line
+	6850 3125 8425 3125
+Wire Wire Line
+	6850 3225 8425 3225
+Wire Wire Line
+	6850 3325 8425 3325
+Wire Wire Line
+	6850 3425 8425 3425
+Wire Wire Line
+	6850 3525 7250 3525
+Wire Wire Line
+	7250 3525 7250 3625
+Wire Wire Line
+	7250 3625 8425 3625
+Wire Wire Line
+	6850 3625 7175 3625
+Wire Wire Line
+	7175 3625 7175 3725
+Wire Wire Line
+	7175 3725 8425 3725
+Wire Wire Line
+	6850 6750 6925 6750
+Wire Wire Line
+	6925 6750 6925 3825
+Wire Wire Line
+	6925 3825 8425 3825
+Wire Wire Line
+	7025 3925 7025 6850
+Wire Wire Line
+	7025 6850 6850 6850
+Wire Wire Line
+	7025 3925 8425 3925
+Wire Wire Line
+	8425 4025 7850 4025
+Wire Wire Line
+	7125 6950 6850 6950
+Wire Wire Line
+	7225 7050 6850 7050
+$Comp
+L Device:R_Network04_US RN1
+U 1 1 640B5602
+P 5075 1775
+F 0 "RN1" H 5100 2025 50  0000 L CNN
+F 1 "10K" H 5100 1950 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 5350 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5075 1775 50  0001 C CNN
+	1    5075 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1475 4775 1275
+Text Label 4775 1475 1    50   ~ 0
+VBUS
+$Comp
+L Diode:1.5KExxA D2
+U 1 1 641297EC
+P 3850 2625
+F 0 "D2" V 3804 2704 50  0000 L CNN
+F 1 "SA5.0A" V 3895 2704 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 3850 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3800 2625 50  0001 C CNN
+	1    3850 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D3
+U 1 1 641297F6
+P 4075 2625
+F 0 "D3" V 4029 2704 50  0000 L CNN
+F 1 "SA5.0A" V 4120 2704 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4075 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4025 2625 50  0001 C CNN
+	1    4075 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D4
+U 1 1 64129800
+P 4300 2625
+F 0 "D4" V 4254 2704 50  0000 L CNN
+F 1 "SA5.0A" V 4345 2704 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4300 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4250 2625 50  0001 C CNN
+	1    4300 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D5
+U 1 1 6412980A
+P 4525 2625
+F 0 "D5" V 4479 2704 50  0000 L CNN
+F 1 "SA5.0A" V 4570 2704 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4525 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4475 2625 50  0001 C CNN
+	1    4525 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 64129814
+P 4525 2825
+F 0 "#PWR0111" H 4525 2575 50  0001 C CNN
+F 1 "GND" H 4530 2652 50  0000 C CNN
+F 2 "" H 4525 2825 50  0001 C CNN
+F 3 "" H 4525 2825 50  0001 C CNN
+	1    4525 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 6412981E
+P 4300 2825
+F 0 "#PWR0112" H 4300 2575 50  0001 C CNN
+F 1 "GND" H 4305 2652 50  0000 C CNN
+F 2 "" H 4300 2825 50  0001 C CNN
+F 3 "" H 4300 2825 50  0001 C CNN
+	1    4300 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 64129828
+P 4075 2825
+F 0 "#PWR0113" H 4075 2575 50  0001 C CNN
+F 1 "GND" H 4080 2652 50  0000 C CNN
+F 2 "" H 4075 2825 50  0001 C CNN
+F 3 "" H 4075 2825 50  0001 C CNN
+	1    4075 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 64129832
+P 3850 2825
+F 0 "#PWR0114" H 3850 2575 50  0001 C CNN
+F 1 "GND" H 3855 2652 50  0000 C CNN
+F 2 "" H 3850 2825 50  0001 C CNN
+F 3 "" H 3850 2825 50  0001 C CNN
+	1    3850 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 2825 4525 2775
+Wire Wire Line
+	4300 2825 4300 2775
+Wire Wire Line
+	4075 2825 4075 2775
+Wire Wire Line
+	3850 2825 3850 2775
+$Comp
+L power:GND #PWR0115
+U 1 1 64139746
+P 3600 2525
+F 0 "#PWR0115" H 3600 2275 50  0001 C CNN
+F 1 "GND" H 3600 2400 50  0000 C CNN
+F 2 "" H 3600 2525 50  0001 C CNN
+F 3 "" H 3600 2525 50  0001 C CNN
+	1    3600 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 2475 3600 2475
+Wire Wire Line
+	3600 2475 3600 2525
+Wire Wire Line
+	6250 3125 4875 3125
+Wire Wire Line
+	4875 3125 4875 2375
+Wire Wire Line
+	6250 3025 4975 3025
+Wire Wire Line
+	4975 3025 4975 2275
+Wire Wire Line
+	5075 2175 5075 2925
+Wire Wire Line
+	5075 2925 6250 2925
+Wire Wire Line
+	6250 2825 5175 2825
+Wire Wire Line
+	5175 2825 5175 2075
+Wire Wire Line
+	3525 2075 3850 2075
+Wire Wire Line
+	3525 2175 4075 2175
+Wire Wire Line
+	3525 2275 4300 2275
+Wire Wire Line
+	3525 2375 4525 2375
+Wire Wire Line
+	5175 1975 5175 2075
+Connection ~ 5175 2075
+Wire Wire Line
+	5075 1975 5075 2175
+Connection ~ 5075 2175
+Wire Wire Line
+	4975 1975 4975 2275
+Connection ~ 4975 2275
+Wire Wire Line
+	4875 1975 4875 2375
+Connection ~ 4875 2375
+Wire Wire Line
+	3850 2475 3850 2075
+Connection ~ 3850 2075
+Wire Wire Line
+	3850 2075 5175 2075
+Wire Wire Line
+	4075 2475 4075 2175
+Connection ~ 4075 2175
+Wire Wire Line
+	4075 2175 5075 2175
+Wire Wire Line
+	4300 2475 4300 2275
+Connection ~ 4300 2275
+Wire Wire Line
+	4300 2275 4975 2275
+Wire Wire Line
+	4525 2475 4525 2375
+Connection ~ 4525 2375
+Wire Wire Line
+	4525 2375 4875 2375
+Text Label 3600 1875 1    50   ~ 0
+VBUS
+Wire Wire Line
+	3525 1975 3600 1975
+Wire Wire Line
+	3600 1700 3600 1975
+$Comp
+L Connector:Screw_Terminal_01x06 J5
+U 1 1 642F31CF
+P 3325 4475
+F 0 "J5" H 3275 4050 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3405 4376 50  0001 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal" H 3325 4475 50  0001 C CNN
+F 3 "~" H 3325 4475 50  0001 C CNN
+	1    3325 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D10
+U 1 1 642F31E5
+P 3850 4925
+F 0 "D10" V 3800 4975 50  0000 L CNN
+F 1 "SA5.0A" V 3895 5004 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 3850 4725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3800 4925 50  0001 C CNN
+	1    3850 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D11
+U 1 1 642F31EF
+P 4075 4925
+F 0 "D11" V 4025 4975 50  0000 L CNN
+F 1 "SA5.0A" V 4120 5004 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4075 4725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4025 4925 50  0001 C CNN
+	1    4075 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D12
+U 1 1 642F31F9
+P 4300 4925
+F 0 "D12" V 4250 4975 50  0000 L CNN
+F 1 "SA5.0A" V 4345 5004 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4300 4725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4250 4925 50  0001 C CNN
+	1    4300 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D13
+U 1 1 642F3203
+P 4525 4925
+F 0 "D13" V 4479 5004 50  0000 L CNN
+F 1 "SA5.0A" V 4570 5004 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4525 4725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4475 4925 50  0001 C CNN
+	1    4525 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 642F320D
+P 4525 5125
+F 0 "#PWR0116" H 4525 4875 50  0001 C CNN
+F 1 "GND" H 4530 4952 50  0000 C CNN
+F 2 "" H 4525 5125 50  0001 C CNN
+F 3 "" H 4525 5125 50  0001 C CNN
+	1    4525 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 642F3217
+P 4300 5125
+F 0 "#PWR0117" H 4300 4875 50  0001 C CNN
+F 1 "GND" H 4305 4952 50  0000 C CNN
+F 2 "" H 4300 5125 50  0001 C CNN
+F 3 "" H 4300 5125 50  0001 C CNN
+	1    4300 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 642F3221
+P 4075 5125
+F 0 "#PWR0118" H 4075 4875 50  0001 C CNN
+F 1 "GND" H 4080 4952 50  0000 C CNN
+F 2 "" H 4075 5125 50  0001 C CNN
+F 3 "" H 4075 5125 50  0001 C CNN
+	1    4075 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 642F322B
+P 3850 5125
+F 0 "#PWR0119" H 3850 4875 50  0001 C CNN
+F 1 "GND" H 3855 4952 50  0000 C CNN
+F 2 "" H 3850 5125 50  0001 C CNN
+F 3 "" H 3850 5125 50  0001 C CNN
+	1    3850 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 5125 4525 5075
+Wire Wire Line
+	4300 5125 4300 5075
+Wire Wire Line
+	4075 5125 4075 5075
+Wire Wire Line
+	3850 5125 3850 5075
+$Comp
+L power:GND #PWR0120
+U 1 1 642F3239
+P 3600 4825
+F 0 "#PWR0120" H 3600 4575 50  0001 C CNN
+F 1 "GND" H 3600 4700 50  0000 C CNN
+F 2 "" H 3600 4825 50  0001 C CNN
+F 3 "" H 3600 4825 50  0001 C CNN
+	1    3600 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 4775 3600 4775
+Wire Wire Line
+	3600 4775 3600 4825
+Wire Wire Line
+	3525 4375 3850 4375
+Wire Wire Line
+	3525 4475 4075 4475
+Wire Wire Line
+	3525 4575 4300 4575
+Wire Wire Line
+	3525 4675 4525 4675
+Wire Wire Line
+	5175 4275 5175 4375
+Wire Wire Line
+	5075 4275 5075 4475
+Wire Wire Line
+	4975 4275 4975 4575
+Wire Wire Line
+	4875 4275 4875 4675
+Wire Wire Line
+	3850 4775 3850 4375
+Connection ~ 3850 4375
+Wire Wire Line
+	3850 4375 5175 4375
+Wire Wire Line
+	4075 4775 4075 4475
+Connection ~ 4075 4475
+Wire Wire Line
+	4075 4475 5075 4475
+Wire Wire Line
+	4300 4775 4300 4575
+Connection ~ 4300 4575
+Wire Wire Line
+	4300 4575 4975 4575
+Wire Wire Line
+	4525 4775 4525 4675
+Connection ~ 4525 4675
+Wire Wire Line
+	4525 4675 4875 4675
+Text Label 3600 4175 1    50   ~ 0
+VBUS
+Wire Wire Line
+	3525 4275 3600 4275
+Wire Wire Line
+	3600 4000 3600 4275
+Wire Wire Line
+	5175 4375 5450 4375
+Wire Wire Line
+	5450 3225 6250 3225
+Connection ~ 5175 4375
+Wire Wire Line
+	5075 4475 5550 4475
+Wire Wire Line
+	5550 3325 6250 3325
+Connection ~ 5075 4475
+Wire Wire Line
+	4975 4575 5650 4575
+Wire Wire Line
+	5650 3425 6250 3425
+Connection ~ 4975 4575
+Wire Wire Line
+	6250 3525 5750 3525
+Wire Wire Line
+	5750 4675 4875 4675
+Connection ~ 4875 4675
+$Comp
+L Connector:Screw_Terminal_01x06 J8
+U 1 1 6442B290
+P 3325 6750
+F 0 "J8" H 3275 6325 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3405 6651 50  0001 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal" H 3325 6750 50  0001 C CNN
+F 3 "~" H 3325 6750 50  0001 C CNN
+	1    3325 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D18
+U 1 1 6442B2A6
+P 3850 7200
+F 0 "D18" V 3800 7250 50  0000 L CNN
+F 1 "SA5.0A" V 3895 7279 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 3850 7000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3800 7200 50  0001 C CNN
+	1    3850 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D19
+U 1 1 6442B2B0
+P 4075 7200
+F 0 "D19" V 4025 7250 50  0000 L CNN
+F 1 "SA5.0A" V 4120 7279 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4075 7000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4025 7200 50  0001 C CNN
+	1    4075 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D20
+U 1 1 6442B2BA
+P 4300 7200
+F 0 "D20" V 4250 7250 50  0000 L CNN
+F 1 "SA5.0A" V 4345 7279 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4300 7000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4250 7200 50  0001 C CNN
+	1    4300 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D21
+U 1 1 6442B2C4
+P 4525 7200
+F 0 "D21" V 4479 7279 50  0000 L CNN
+F 1 "SA5.0A" V 4570 7279 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4525 7000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4475 7200 50  0001 C CNN
+	1    4525 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 6442B2CE
+P 4525 7400
+F 0 "#PWR0121" H 4525 7150 50  0001 C CNN
+F 1 "GND" H 4530 7227 50  0000 C CNN
+F 2 "" H 4525 7400 50  0001 C CNN
+F 3 "" H 4525 7400 50  0001 C CNN
+	1    4525 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 6442B2D8
+P 4300 7400
+F 0 "#PWR0122" H 4300 7150 50  0001 C CNN
+F 1 "GND" H 4305 7227 50  0000 C CNN
+F 2 "" H 4300 7400 50  0001 C CNN
+F 3 "" H 4300 7400 50  0001 C CNN
+	1    4300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 6442B2E2
+P 4075 7400
+F 0 "#PWR0123" H 4075 7150 50  0001 C CNN
+F 1 "GND" H 4080 7227 50  0000 C CNN
+F 2 "" H 4075 7400 50  0001 C CNN
+F 3 "" H 4075 7400 50  0001 C CNN
+	1    4075 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 6442B2EC
+P 3850 7400
+F 0 "#PWR0124" H 3850 7150 50  0001 C CNN
+F 1 "GND" H 3855 7227 50  0000 C CNN
+F 2 "" H 3850 7400 50  0001 C CNN
+F 3 "" H 3850 7400 50  0001 C CNN
+	1    3850 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 7400 4525 7350
+Wire Wire Line
+	4300 7400 4300 7350
+Wire Wire Line
+	4075 7400 4075 7350
+Wire Wire Line
+	3850 7400 3850 7350
+$Comp
+L power:GND #PWR0125
+U 1 1 6442B2FA
+P 3600 7100
+F 0 "#PWR0125" H 3600 6850 50  0001 C CNN
+F 1 "GND" H 3600 6975 50  0000 C CNN
+F 2 "" H 3600 7100 50  0001 C CNN
+F 3 "" H 3600 7100 50  0001 C CNN
+	1    3600 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 7050 3600 7050
+Wire Wire Line
+	3600 7050 3600 7100
+Wire Wire Line
+	3525 6650 3850 6650
+Wire Wire Line
+	3525 6750 4075 6750
+Wire Wire Line
+	3525 6850 4300 6850
+Wire Wire Line
+	3525 6950 4525 6950
+Wire Wire Line
+	5175 6550 5175 6650
+Wire Wire Line
+	5075 6550 5075 6750
+Wire Wire Line
+	4975 6550 4975 6850
+Wire Wire Line
+	4875 6550 4875 6950
+Wire Wire Line
+	3850 7050 3850 6650
+Connection ~ 3850 6650
+Wire Wire Line
+	3850 6650 5175 6650
+Wire Wire Line
+	4075 7050 4075 6750
+Connection ~ 4075 6750
+Wire Wire Line
+	4075 6750 5075 6750
+Wire Wire Line
+	4300 7050 4300 6850
+Connection ~ 4300 6850
+Wire Wire Line
+	4300 6850 4975 6850
+Wire Wire Line
+	4525 7050 4525 6950
+Connection ~ 4525 6950
+Wire Wire Line
+	4525 6950 4875 6950
+Text Label 3600 6450 1    50   ~ 0
+VBUS
+Wire Wire Line
+	3525 6550 3600 6550
+Wire Wire Line
+	3600 6275 3600 6550
+Connection ~ 5175 6650
+Connection ~ 5075 6750
+Connection ~ 4975 6850
+Connection ~ 4875 6950
+Wire Wire Line
+	5175 6650 6250 6650
+Wire Wire Line
+	5075 6750 6250 6750
+Wire Wire Line
+	4975 6850 6250 6850
+Wire Wire Line
+	4875 6950 6250 6950
+Wire Wire Line
+	7125 4125 8425 4125
+Wire Wire Line
+	7125 4125 7125 6950
+Wire Wire Line
+	8425 4225 7225 4225
+Wire Wire Line
+	7225 4225 7225 7050
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 645386F4
+P 4875 1075
+F 0 "J1" V 4875 875 50  0000 R CNN
+F 1 "Conn_01x03" V 4748 887 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4875 1075 50  0001 C CNN
+F 3 "~" H 4875 1075 50  0001 C CNN
+	1    4875 1075
+	0    -1   -1   0   
+$EndComp
+Text Notes 4600 975  0    75   ~ 0
+Pull Up/Dn
+Wire Wire Line
+	4875 1275 4875 1575
+Wire Wire Line
+	4975 1275 4975 1350
+$Comp
+L power:GND #PWR0126
+U 1 1 645A3C62
+P 4975 1350
+F 0 "#PWR0126" H 4975 1100 50  0001 C CNN
+F 1 "GND" H 4975 1200 50  0000 C CNN
+F 2 "" H 4975 1350 50  0001 C CNN
+F 3 "" H 4975 1350 50  0001 C CNN
+	1    4975 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network04_US RN4
+U 1 1 64650584
+P 5075 4075
+F 0 "RN4" H 5100 4325 50  0000 L CNN
+F 1 "10K" H 5100 4250 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 5350 4075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5075 4075 50  0001 C CNN
+	1    5075 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3775 4775 3575
+Text Label 4775 3775 1    50   ~ 0
+VBUS
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 64650590
+P 4875 3375
+F 0 "J3" V 4875 3175 50  0000 R CNN
+F 1 "Conn_01x03" V 4748 3187 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4875 3375 50  0001 C CNN
+F 3 "~" H 4875 3375 50  0001 C CNN
+	1    4875 3375
+	0    -1   -1   0   
+$EndComp
+Text Notes 4600 3275 0    75   ~ 0
+Pull Up/Dn
+Wire Wire Line
+	4875 3575 4875 3875
+Wire Wire Line
+	4975 3575 4975 3650
+$Comp
+L power:GND #PWR0127
+U 1 1 6465059D
+P 4975 3650
+F 0 "#PWR0127" H 4975 3400 50  0001 C CNN
+F 1 "GND" H 4975 3500 50  0000 C CNN
+F 2 "" H 4975 3650 50  0001 C CNN
+F 3 "" H 4975 3650 50  0001 C CNN
+	1    4975 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3225 5450 4375
+Wire Wire Line
+	5550 4475 5550 3325
+Wire Wire Line
+	5650 3425 5650 4575
+Wire Wire Line
+	5750 4675 5750 3525
+$Comp
+L Device:R_Network04_US RN5
+U 1 1 646EF9DF
+P 5075 6350
+F 0 "RN5" H 5100 6600 50  0000 L CNN
+F 1 "10K" H 5100 6525 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 5350 6350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5075 6350 50  0001 C CNN
+	1    5075 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 6050 4775 5850
+Text Label 4775 6050 1    50   ~ 0
+VBUS
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 646EF9EB
+P 4875 5650
+F 0 "J7" V 4875 5450 50  0000 R CNN
+F 1 "Conn_01x03" V 4748 5462 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4875 5650 50  0001 C CNN
+F 3 "~" H 4875 5650 50  0001 C CNN
+	1    4875 5650
+	0    -1   -1   0   
+$EndComp
+Text Notes 4600 5550 0    75   ~ 0
+Pull Up/Dn
+Wire Wire Line
+	4875 5850 4875 6150
+Wire Wire Line
+	4975 5850 4975 5925
+$Comp
+L power:GND #PWR0128
+U 1 1 646EF9F8
+P 4975 5925
+F 0 "#PWR0128" H 4975 5675 50  0001 C CNN
+F 1 "GND" H 4975 5775 50  0000 C CNN
+F 2 "" H 4975 5925 50  0001 C CNN
+F 3 "" H 4975 5925 50  0001 C CNN
+	1    4975 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 64728A0C
+P 6650 4050
+F 0 "#PWR0129" H 6650 3800 50  0001 C CNN
+F 1 "GND" H 6655 3877 50  0000 C CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4050 6650 4025
+Wire Wire Line
+	6650 6350 6650 6125
+Text Label 6650 6275 1    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR0130
+U 1 1 6475F674
+P 6650 7900
+F 0 "#PWR0130" H 6650 7650 50  0001 C CNN
+F 1 "GND" H 6655 7727 50  0000 C CNN
+F 2 "" H 6650 7900 50  0001 C CNN
+F 3 "" H 6650 7900 50  0001 C CNN
+	1    6650 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 7900 6650 7850
+Text Label 11175 3725 1    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR0131
+U 1 1 64796A46
+P 11175 5400
+F 0 "#PWR0131" H 11175 5150 50  0001 C CNN
+F 1 "GND" H 11180 5227 50  0000 C CNN
+F 2 "" H 11175 5400 50  0001 C CNN
+F 3 "" H 11175 5400 50  0001 C CNN
+	1    11175 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11175 5400 11175 5325
+Wire Wire Line
+	11800 4925 11575 4925
+Text Label 11800 4925 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR0132
+U 1 1 647CEA13
+P 11650 5050
+F 0 "#PWR0132" H 11650 4800 50  0001 C CNN
+F 1 "GND" H 11655 4877 50  0000 C CNN
+F 2 "" H 11650 5050 50  0001 C CNN
+F 3 "" H 11650 5050 50  0001 C CNN
+	1    11650 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11575 5025 11650 5025
+Wire Wire Line
+	11650 5025 11650 5050
+Wire Wire Line
+	6250 3625 6025 3625
+Text Label 6175 3625 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR0133
+U 1 1 6480728B
+P 6175 3750
+F 0 "#PWR0133" H 6175 3500 50  0001 C CNN
+F 1 "GND" H 6175 3600 50  0000 C CNN
+F 2 "" H 6175 3750 50  0001 C CNN
+F 3 "" H 6175 3750 50  0001 C CNN
+	1    6175 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 3750 6175 3725
+Wire Wire Line
+	6175 3725 6250 3725
+Wire Wire Line
+	6250 7450 6025 7450
+Text Label 6175 7450 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR0134
+U 1 1 64824163
+P 6175 7575
+F 0 "#PWR0134" H 6175 7325 50  0001 C CNN
+F 1 "GND" H 6175 7425 50  0000 C CNN
+F 2 "" H 6175 7575 50  0001 C CNN
+F 3 "" H 6175 7575 50  0001 C CNN
+	1    6175 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 7575 6175 7550
+Wire Wire Line
+	6175 7550 6250 7550
+$Comp
+L Connector:Screw_Terminal_01x06 J10
+U 1 1 64842638
+P 3325 8975
+F 0 "J10" H 3275 8550 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3405 8876 50  0001 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal" H 3325 8975 50  0001 C CNN
+F 3 "~" H 3325 8975 50  0001 C CNN
+	1    3325 8975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxA D22
+U 1 1 64842642
+P 3850 9425
+F 0 "D22" V 3800 9475 50  0000 L CNN
+F 1 "SA5.0A" V 3895 9504 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 3850 9225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3800 9425 50  0001 C CNN
+	1    3850 9425
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D23
+U 1 1 6484264C
+P 4075 9425
+F 0 "D23" V 4025 9475 50  0000 L CNN
+F 1 "SA5.0A" V 4120 9504 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4075 9225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4025 9425 50  0001 C CNN
+	1    4075 9425
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D24
+U 1 1 64842656
+P 4300 9425
+F 0 "D24" V 4250 9475 50  0000 L CNN
+F 1 "SA5.0A" V 4345 9504 50  0001 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4300 9225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4250 9425 50  0001 C CNN
+	1    4300 9425
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D25
+U 1 1 64842660
+P 4525 9425
+F 0 "D25" V 4479 9504 50  0000 L CNN
+F 1 "SA5.0A" V 4570 9504 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4525 9225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4475 9425 50  0001 C CNN
+	1    4525 9425
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 6484266A
+P 4525 9625
+F 0 "#PWR0135" H 4525 9375 50  0001 C CNN
+F 1 "GND" H 4530 9452 50  0000 C CNN
+F 2 "" H 4525 9625 50  0001 C CNN
+F 3 "" H 4525 9625 50  0001 C CNN
+	1    4525 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 64842674
+P 4300 9625
+F 0 "#PWR0136" H 4300 9375 50  0001 C CNN
+F 1 "GND" H 4305 9452 50  0000 C CNN
+F 2 "" H 4300 9625 50  0001 C CNN
+F 3 "" H 4300 9625 50  0001 C CNN
+	1    4300 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 6484267E
+P 4075 9625
+F 0 "#PWR0137" H 4075 9375 50  0001 C CNN
+F 1 "GND" H 4080 9452 50  0000 C CNN
+F 2 "" H 4075 9625 50  0001 C CNN
+F 3 "" H 4075 9625 50  0001 C CNN
+	1    4075 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 64842688
+P 3850 9625
+F 0 "#PWR0138" H 3850 9375 50  0001 C CNN
+F 1 "GND" H 3855 9452 50  0000 C CNN
+F 2 "" H 3850 9625 50  0001 C CNN
+F 3 "" H 3850 9625 50  0001 C CNN
+	1    3850 9625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 9625 4525 9575
+Wire Wire Line
+	4300 9625 4300 9575
+Wire Wire Line
+	4075 9625 4075 9575
+Wire Wire Line
+	3850 9625 3850 9575
+$Comp
+L power:GND #PWR0139
+U 1 1 64842696
+P 3600 9325
+F 0 "#PWR0139" H 3600 9075 50  0001 C CNN
+F 1 "GND" H 3600 9200 50  0000 C CNN
+F 2 "" H 3600 9325 50  0001 C CNN
+F 3 "" H 3600 9325 50  0001 C CNN
+	1    3600 9325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 9275 3600 9275
+Wire Wire Line
+	3600 9275 3600 9325
+Wire Wire Line
+	3525 8875 3850 8875
+Wire Wire Line
+	3525 8975 4075 8975
+Wire Wire Line
+	3525 9075 4300 9075
+Wire Wire Line
+	3525 9175 4525 9175
+Wire Wire Line
+	5175 8775 5175 8875
+Wire Wire Line
+	5075 8775 5075 8975
+Wire Wire Line
+	4975 8775 4975 9075
+Wire Wire Line
+	4875 8775 4875 9175
+Wire Wire Line
+	3850 9275 3850 8875
+Connection ~ 3850 8875
+Wire Wire Line
+	3850 8875 5175 8875
+Wire Wire Line
+	4075 9275 4075 8975
+Connection ~ 4075 8975
+Wire Wire Line
+	4075 8975 5075 8975
+Wire Wire Line
+	4300 9275 4300 9075
+Connection ~ 4300 9075
+Wire Wire Line
+	4300 9075 4975 9075
+Wire Wire Line
+	4525 9275 4525 9175
+Connection ~ 4525 9175
+Wire Wire Line
+	4525 9175 4875 9175
+Text Label 3600 8675 1    50   ~ 0
+VBUS
+Wire Wire Line
+	3525 8775 3600 8775
+Wire Wire Line
+	3600 8500 3600 8775
+Connection ~ 5175 8875
+Connection ~ 5075 8975
+Connection ~ 4975 9075
+Connection ~ 4875 9175
+Wire Wire Line
+	5175 8875 5450 8875
+Wire Wire Line
+	5075 8975 5550 8975
+Wire Wire Line
+	4975 9075 5650 9075
+Wire Wire Line
+	4875 9175 5750 9175
+$Comp
+L Device:R_Network04_US RN6
+U 1 1 648426C1
+P 5075 8575
+F 0 "RN6" H 5100 8825 50  0000 L CNN
+F 1 "10K" H 5100 8750 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 5350 8575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5075 8575 50  0001 C CNN
+	1    5075 8575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 8275 4775 8075
+Text Label 4775 8275 1    50   ~ 0
+VBUS
+$Comp
+L Connector_Generic:Conn_01x03 J9
+U 1 1 648426CD
+P 4875 7875
+F 0 "J9" V 4875 7675 50  0000 R CNN
+F 1 "Conn_01x03" V 4748 7687 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4875 7875 50  0001 C CNN
+F 3 "~" H 4875 7875 50  0001 C CNN
+	1    4875 7875
+	0    -1   -1   0   
+$EndComp
+Text Notes 4600 7775 0    75   ~ 0
+Pull Up/Dn
+Wire Wire Line
+	4875 8075 4875 8375
+Wire Wire Line
+	4975 8075 4975 8150
+$Comp
+L power:GND #PWR0140
+U 1 1 648426DA
+P 4975 8150
+F 0 "#PWR0140" H 4975 7900 50  0001 C CNN
+F 1 "GND" H 4975 8000 50  0000 C CNN
+F 2 "" H 4975 8150 50  0001 C CNN
+F 3 "" H 4975 8150 50  0001 C CNN
+	1    4975 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 7050 5450 7050
+Wire Wire Line
+	5450 7050 5450 8875
+Wire Wire Line
+	6250 7150 5550 7150
+Wire Wire Line
+	5550 7150 5550 8975
+Wire Wire Line
+	6250 7250 5650 7250
+Wire Wire Line
+	5650 7250 5650 9075
+Wire Wire Line
+	6250 7350 5750 7350
+Wire Wire Line
+	5750 7350 5750 9175
+Wire Wire Line
+	9825 2925 10550 2925
+Wire Wire Line
+	6850 7150 7425 7150
+Wire Wire Line
+	6850 7250 7425 7250
+Wire Wire Line
+	6850 7350 7425 7350
+Wire Wire Line
+	6850 7450 7425 7450
+Text Label 6950 7150 0    50   ~ 0
+GP27_ADC1
+Text Label 6950 7250 0    50   ~ 0
+GP26_ADC0
+Text Label 6950 7350 0    50   ~ 0
+GP22
+Text Label 6950 7450 0    50   ~ 0
+GP21
+Text Notes 2175 9125 0    75   ~ 0
+Mouse 1 Left Click
+Text Notes 2100 9225 0    75   ~ 0
+Mouse 1 Right Click
+Text Notes 2575 9025 0    75   ~ 0
+Spare Input
+Text Notes 2575 8925 0    75   ~ 0
+Spare Input
+Text Notes 2575 2325 0    75   ~ 0
+Mouse 1 Y1
+Text Notes 2575 2425 0    75   ~ 0
+Mouse 1 Y2\n
+Text Notes 2575 2225 0    75   ~ 0
+Mouse 1 X2
+Text Notes 2575 2125 0    75   ~ 0
+Mouse 1 X1
+Text Notes 2575 4625 0    75   ~ 0
+Mouse 2 Y1
+Text Notes 2575 4725 0    75   ~ 0
+Mouse 2 Y2\n
+Text Notes 2575 4525 0    75   ~ 0
+Mouse 2 X2
+Text Notes 2575 4425 0    75   ~ 0
+Mouse 2 X1
+Text Notes 2575 6900 0    75   ~ 0
+Mouse 3 Y1
+Text Notes 2575 7000 0    75   ~ 0
+Mouse 3 Y2\n
+Text Notes 2575 6800 0    75   ~ 0
+Mouse 3 X2
+Text Notes 2575 6700 0    75   ~ 0
+Mouse 3 X1
+$Comp
+L Device:C_Small C1
+U 1 1 64C5F73A
+P 6925 2500
+F 0 "C1" H 7017 2546 50  0000 L CNN
+F 1 "100nF" H 7017 2455 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6925 2500 50  0001 C CNN
+F 3 "~" H 6925 2500 50  0001 C CNN
+	1    6925 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 64C6052D
+P 6925 2650
+F 0 "#PWR0141" H 6925 2400 50  0001 C CNN
+F 1 "GND" H 7075 2575 50  0000 C CNN
+F 2 "" H 6925 2650 50  0001 C CNN
+F 3 "" H 6925 2650 50  0001 C CNN
+	1    6925 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 2650 6925 2600
+Text Label 6650 2350 1    50   ~ 0
+3V3
+Wire Wire Line
+	6650 2200 6650 2350
+Wire Wire Line
+	6925 2400 6925 2350
+Wire Wire Line
+	6925 2350 6650 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 6650 2525
+$Comp
+L Device:C_Small C3
+U 1 1 64D1E159
+P 6100 6200
+F 0 "C3" H 6192 6246 50  0000 L CNN
+F 1 "100nF" H 6192 6155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6100 6200 50  0001 C CNN
+F 3 "~" H 6100 6200 50  0001 C CNN
+	1    6100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 64D1E163
+P 6100 6350
+F 0 "#PWR0142" H 6100 6100 50  0001 C CNN
+F 1 "GND" H 6100 6200 50  0000 C CNN
+F 2 "" H 6100 6350 50  0001 C CNN
+F 3 "" H 6100 6350 50  0001 C CNN
+	1    6100 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6350 6100 6300
+Text Label 6100 6075 1    50   ~ 0
+3V3
+Wire Wire Line
+	6100 5925 6100 6100
+$Comp
+L Device:C_Small C2
+U 1 1 64DB9FD8
+P 10750 3850
+F 0 "C2" H 10842 3896 50  0000 L CNN
+F 1 "100nF" H 10842 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10750 3850 50  0001 C CNN
+F 3 "~" H 10750 3850 50  0001 C CNN
+	1    10750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 64DB9FE2
+P 10750 4000
+F 0 "#PWR0143" H 10750 3750 50  0001 C CNN
+F 1 "GND" H 10750 3850 50  0000 C CNN
+F 2 "" H 10750 4000 50  0001 C CNN
+F 3 "" H 10750 4000 50  0001 C CNN
+	1    10750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4000 10750 3950
+Text Label 10750 3725 1    50   ~ 0
+3V3
+Wire Wire Line
+	10750 3575 10750 3750
+Wire Wire Line
+	11175 3575 11175 3825
+Text Notes 13100 3725 0    75   ~ 0
+Input 1A
+Text Notes 13100 3825 0    75   ~ 0
+Input 1B
+Text Notes 13100 3925 0    75   ~ 0
+Input 1C
+Text Notes 13100 4025 0    75   ~ 0
+Input 1D
+Text Notes 13100 5375 0    75   ~ 0
+Input 2A
+Text Notes 13100 5475 0    75   ~ 0
+Input 2B
+Text Notes 13100 5575 0    75   ~ 0
+Input 2C
+Text Notes 13100 5675 0    75   ~ 0
+Input 2D
+Text Notes 14800 3575 0    75   ~ 0
+Joystick 1
+Text Notes 14800 5600 0    75   ~ 0
+Joystick 2
+$EndSCHEMATC
