@@ -1,0 +1,17 @@
+USB Rotary Joystick/Trackball BOM,,,,,,,,
+,,,,,,,,
+Item #,Reference Designator,Qty,Manufacturer,Mfg Part #,Description / Value,Package/Footprint ,Type,Instructions / Notes
+1,C1 C2 C3,3,KEMET,C320C104K5R5TA7317,0.1 µF ±10% 50V Ceramic Capacitor X7R Radial,2.5mm Pitch,THRU-HOLE,
+2,D1,1,Kingbright,WP7113ID,LED RED DIFFUSED T-1 3/4 T/H,T-1 3/4,THRU-HOLE,
+3,D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25,24,"	
+Littelfuse Inc.",SA5.0A,TVS DIODE 5VWM 9.2VC DO204AC,DO-15,THRU-HOLE,
+4,J1 J3 J7 J9,4,Sullins Connector Solutions,PREC003SAAN-RC,"Connector Header Through Hole 3 position 0.100""",3POS,THRU-HOLE,
+5,J4 J6,2,XKB Connectivity,X6511WR-13H-C30D60R1,Connector Header Through Hole 1x13P P=2.54mm,13POS,THRU-HOLE,
+6,J2 J5 J8 J10,4,Phoenix Contact,1729160,TERM BLK 6P SIDE ENT 5.08MM PCB,6POS,THRU-HOLE,
+7,R1,1,YAGEO,CFR-25JR-52-330R,RES 330 OHM 5% 1/4W AXIAL,Axial,THRU-HOLE,
+8,RN1 RN2 RN3 RN4 RN5 RN6,6,FH (Guangdong Fenghua Advanced Tech),A05-103JP,±5% 4x10kΩ 125mW SIP-5-2.54mm Resistor Network,SIP-5-2.54mm,THRU-HOLE,
+9,U1,2,Sullins Connector Solutions,"	
+PPTC201LFBN-RC",CONN HDR 20POS 0.1 TIN PCB,20POS,THRU-HOLE,"U1 should be populated with two 20 pin headers to let the user plug in a ""Raspberry Pi Pico"" module"
+10,U2 U3 U4,3,Texas Instruments,SN74LVC245AN,"Transceiver, Non-Inverting 8 Bit 3-State Output 20-PDIP",DIP-20,THRU-HOLE,
+,,,,,,,,
+Note:  The BOM does not list the Raspberry Pi Pico module required to plug into the female header pins of U1.  The user is assumed to supply their own module.,,,,,,,,
