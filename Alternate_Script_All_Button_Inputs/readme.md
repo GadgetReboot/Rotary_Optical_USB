@@ -1,0 +1,1 @@
+This is a test script that can be used in the pi pico to set all screw terminal inputs as regular button inputs instead of optical encoders to allow fast testing of inputs by grounding each one to generate a keystroke.
